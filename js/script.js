@@ -78,7 +78,7 @@ const form = document.getElementById('cta-form');
 form.addEventListener('submit', async function(event) {
   event.preventDefault();
   const formData = new FormData(this);
-  const response = await fetch('https://script.google.com/macros/s/AKfycbytQAXNh1xQXutiYqW5vkhmMeyPj7_2j0aY0kDzGlgU2O8hLGnLo-QnGQre-zqmMtgM/exec', {
+  const response = await fetch('https://script.google.com/macros/s/AKfycbwnL5XnaYfPc7uM6bzwOFYG9go2Ls_EATBuZWaKgKZwTyC7bRTYPOZc4wAFTKPs0sU/exec', {
     method: 'POST',
     body: formData
   });

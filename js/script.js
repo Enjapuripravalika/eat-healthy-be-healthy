@@ -75,13 +75,13 @@ obs.observe(sectionHeroEl);
 
 // form
 const form = document.getElementById('cta-form');
-form.addEventListener('submit', async function(event) {
-  event.preventDefault();
-  const formData = new FormData(this);
-  const response = await fetch('https://script.google.com/macros/s/AKfycbwnL5XnaYfPc7uM6bzwOFYG9go2Ls_EATBuZWaKgKZwTyC7bRTYPOZc4wAFTKPs0sU/exec', {
-    method: 'POST',
-    body: formData
-  });
-  const result = await response.json();
-  console.log(result);
-});
+form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    let data = new FormData(form);
+    fetch('https://script.google.com/macros/s/AKfycbyTo81NlUroY5SNQbJm0n_fSGXjYrLIrcQyCquwmgCNOlsDTIq_JWr2Qs_vJmthfn60/exec', {
+            method: "POST",
+            body: data
+        })
+        .then(res => res.json())
+        .then(data => console.log(data));
+})

@@ -1,6 +1,8 @@
 /*  #dad0a5
 #333333
  rgb(117, 112, 112) */
+/* rgb(5, 51, 5) hover the button */
+/* rgb(206, 104, 98)section 1 button */
 * {
     padding: 0;
     margin: 0;
@@ -106,15 +108,15 @@ body {
 .subheading {
     display: block;
     font-size: 1.6rem;
-    font-weight: 500;
-    color: rgb(0, 30, 255);
+    font-weight: bold;
+    color: green;
     text-transform: uppercase;
     margin-bottom: 1.6rem;
     letter-spacing: 0.75px;
 }
 
 .btn--form {
-    background-color: rgb(71, 17, 17);
+    background-color: green;
     color: whitesmoke;
     align-self: end;
     /* padding: 1.2rem; */
@@ -143,9 +145,10 @@ body {
     font-family: inherit;
 }
 
+/* section 1 buttons */
 .btn--full:link,
 .btn--full:visited {
-    background-color: #333333;
+    background-color: green;
     color: white;
     /* margin-right: 1.6rem;? */
 
@@ -153,19 +156,19 @@ body {
 
 .btn--full:hover,
 .btn--full:active {
-    background-color: rgb(117, 112, 112);
+    background-color: rgb(5, 51, 5);
 }
 
 .btn--outline:link,
 .btn--outline:visited {
     background-color: white;
-    color: #333333;
+    color: rgb(6, 38, 6);
     transition: background-color 0.3s;
 }
 
 .btn--outline:hover,
 .btn--outline:active {
-    background-color: rgb(235, 230, 230);
+    background-color: whitesmoke;
     /* border: 2px solid white; */
     /* box-shadow: inset 0 0 0 3px; */
 
@@ -174,7 +177,7 @@ body {
 .link:link,
 .link:visited {
     display: inline-block;
-    color: orange;
+    color: green;
     text-decoration: none;
     border-bottom: 1px solid currentColor;
     padding-bottom: 2px;
@@ -205,7 +208,7 @@ body {
 .list-icon {
     width: 3rem;
     height: 3rem;
-    color: #333333;
+    color: green;
 }
 
 *:focus {
@@ -238,16 +241,18 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #dfcb71;
+    background-color: rgb(200, 239, 200);
     height: 9.6rem;
     padding: 0 4.8rem;
     position: relative;
 }
 
 .logo {
-    height: 4.2rem;
+    height: 5.2rem;
 
 }
+
+/* navigation buttons */
 
 .main-nav-list {
     list-style: none;
@@ -260,7 +265,7 @@ body {
 .main-nav-link:visited {
     display: inline-block;
     text-decoration: none;
-    color: #333333;
+    color: green;
     font-weight: 500;
     font-size: 1.8rem;
     transition: all 0.3s;
@@ -268,7 +273,7 @@ body {
 
 .main-nav-link:hover,
 .main-nav-link:active {
-    color: rgb(117, 112, 112);
+    color: rgb(5, 51, 5);
 }
 
 .main-nav-link.nav-cta:link,
@@ -276,12 +281,12 @@ body {
     padding: 1.2rem 2.4rem;
     border-radius: 9px;
     color: white;
-    background-color: #333333;
+    background-color: green;
 }
 
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
-    background-color: rgb(117, 112, 112);
+    background-color: rgb(5, 51, 5);
 }
 
 /* Mobile */
@@ -323,7 +328,7 @@ body {
 }
 
 .section-hero {
-    background-color: #dfcb71;
+    background-color: rgb(200, 239, 200);
     padding: 4.8rem 0 9.6rem 0;
     /* margin-bottom: 0.6rem; */
 }
@@ -385,7 +390,7 @@ body {
 }
 
 .delivered-text span {
-    color: rgb(151, 90, 9);
+    color: green;
     font-weight: 700;
 }
 
@@ -525,7 +530,7 @@ body {
 }
 
 .tag--paleo {
-    background-color: rgb(218, 192, 44);
+    background-color: rgb(206, 104, 98);
 }
 
 .meal-title {
@@ -552,7 +557,7 @@ body {
 .meal-icon {
     height: 2.4rem;
     width: 2.4rem;
-    color: orange;
+    color: rgb(206, 104, 98);
 
 }
 
@@ -569,7 +574,7 @@ body {
 /* Testimonials section */
 
 .section-testimonials {
-    background-color: #dfcb71;
+    background-color: rgb(200, 239, 200);
     display: grid;
     grid-template-columns: 55fr 45fr;
     align-items: center;
@@ -588,8 +593,8 @@ body {
 }
 
 .testimonial-img {
-    width: 6.4rem;
-    height: 6.4rem;
+    width: 4.4rem;
+    height: 4.4rem;
     border-radius: 50%;
     margin-bottom: 1.2rem;
 }
@@ -641,12 +646,12 @@ body {
 
 .pricing-plan--starter {
     justify-self: end;
-    border: 2px solid #dad0a5;
+    border: 2px solid green;
     padding: 4.6rem;
 }
 
 .pricing-plan--complete {
-    background-color: #dad0a5;
+    background-color: rgb(200, 239, 200);
     padding: 4.8rem;
     position: relative;
     overflow: hidden;
@@ -661,7 +666,7 @@ body {
     text-transform: uppercase;
     font-size: 1.4rem;
     font-weight: 700;
-    background-color: #333333;
+    background-color: green;
     padding: 0.8rem 8rem;
     transform: rotate(45deg);
 }
@@ -710,10 +715,10 @@ body {
 }
 
 .feature-icon {
-    color: #333333;
+    color: white;
     height: 3.2rem;
     width: 3.2rem;
-    background-color: #dfcb71;
+    background-color: green;
     margin-bottom: 3.2rem;
     padding: 1.6rem;
     border-radius: 50%;
@@ -749,7 +754,7 @@ body {
     border-radius: 11px;
     /* temp */
 
-    background-image: linear-gradient(to right bottom, #cfcab1, #dfcb71);
+    background-image: linear-gradient(to right bottom, #bbcab8, #9cd78b);
     /* height: 50rem; */
     overflow: hidden;
 }
@@ -771,27 +776,27 @@ body {
 }
 
 .cta-img-box {
-    background-image: linear-gradient(to right bottom, rgba(153, 139, 199, 0.274), rgba(163, 163, 164, 0.242)), url("../images/vscode.png");
+    background-image: linear-gradient(to right bottom, rgba(167, 199, 139, 0.274), rgba(163, 163, 164, 0.242)), url("../images/vscode.png");
     background-size: cover;
     background-position: center;
 }
 
-.cta-form {
+#cta-form {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 3.2rem;
     row-gap: 2.4rem;
 }
 
-.cta-form label {
+#cta-form label {
     display: block;
     font-size: 1.6rem;
     font-family: 500;
     margin-bottom: 1.2rem;
 }
 
-.cta-form input,
-.cta-form select {
+#cta-form input,
+#cta-form select {
     width: 100%;
     padding: 1.2rem;
     font-size: 1.8rem;
@@ -803,7 +808,7 @@ body {
     border-radius: 0 1px 2px black;
 }
 
-.cta-form input::placeholder {
+#cta-form input::placeholder {
     color: #aaa;
 }
 

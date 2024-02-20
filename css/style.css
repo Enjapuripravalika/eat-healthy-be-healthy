@@ -431,7 +431,7 @@ body {
 .step-number {
     font-size: 8.6rem;
     font-weight: 600;
-    color: #ddd;
+    color: rgb(109, 175, 109);
     margin-bottom: 1.2rem;
 
 }
@@ -447,6 +447,7 @@ body {
     align-items: center;
     justify-content: center;
     position: relative;
+
 }
 
 .step-img-box::before,
@@ -478,6 +479,8 @@ body {
 
 .step-img {
     width: 35%;
+    border-radius: 10%;
+
 }
 
 /* Meals section */
@@ -515,12 +518,13 @@ body {
     padding: 0.4rem 0.8rem;
     font-size: 1.2rem;
     text-transform: uppercase;
-    background-color: rgb(30, 215, 30);
+    /* background-color:rgb(30, 215, 30); */
     color: #333;
     border-radius: 100px;
     font-weight: 600;
 }
 
+/* rgb(30, 215, 30) */
 .tag--vegeterian {
     background-color: green;
 }
@@ -530,7 +534,9 @@ body {
 }
 
 .tag--paleo {
-    background-color: rgb(206, 104, 98);
+    /* background-color: lightgreen; */
+    border: 2px solid green;
+
 }
 
 .meal-title {
@@ -557,7 +563,8 @@ body {
 .meal-icon {
     height: 2.4rem;
     width: 2.4rem;
-    color: rgb(206, 104, 98);
+    color: rgb(65, 106, 4);
+    /* rgb(206, 104, 98) */
 
 }
 
